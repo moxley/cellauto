@@ -1,9 +1,10 @@
 # Cellular Automata Explorer
 
-A dead-simple explorer of cellular automata. The kind of automata
-in this example is where a cell's binary state depends on the states of
-the three cells above it. The explorer allows navigation among the 256
-possible rules.
+This is a dead-simple explorer of cellular automata.
+In this kind of automata, row upon row of cells is added to an
+otherwise-empty grid. Each cell's binary state depends on the
+states of the adjacent three cells in the row above it. This explorer
+allows navigation among the 256 possible rules.
 
 ## Instructions
 
