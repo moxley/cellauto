@@ -6,6 +6,9 @@ otherwise-empty grid. Each cell's binary state depends on the
 states of the adjacent three cells in the row above it. This explorer
 allows navigation among the 256 possible rules.
 
+## Try It
+<a href="http://moxleystratton.com/files/cellauto/cellauto.html">Try the demo</a>.
+
 ## Instructions
 
 1. Git-clone this repository.
