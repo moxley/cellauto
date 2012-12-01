@@ -84,10 +84,12 @@
   
   CELLAUTO.stop = function () {
     CELLAUTO.stopped = true;
+    $('#btn_stop').text('Slideshow')
   };
   
   function cont () {
     CELLAUTO.stopped = false;
+    $('#btn_stop').text('Stop')
     nextRule();
   }
 
@@ -103,11 +105,9 @@
     $('#btn_stop').click(function () {
       if (CELLAUTO.stopped) {
         cont();
-        $(this).text('Stop')
       }
       else {
         CELLAUTO.stop();
-        $(this).text('Continue')
       }
     });
 
