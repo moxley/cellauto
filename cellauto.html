@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cellular Automata</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="underscore.js"></script>
+    <script type="text/javascript" src="cellauto.js"></script>
+    <script>$(function () { CELLAUTO.init(); CELLAUTO.run(); });</script>
+    <style type="text/css">
+      canvas { border: 1px solid black; }
+    </style>
+  </head>
+  <body>
+    <div>
+      <canvas id="canvas" width="800" height="400"></canvas>
+    </div>
+    <div>
+      Rule <span id="rule"></span>
+    </div>
+    <div>
+      <button id="btn_prev">Prev</button>
+      <button id="btn_stop">Stop</button>
+      <button id="btn_next">Next</button>
+    </div>
+  </body>
+</html>
